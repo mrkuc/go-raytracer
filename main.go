@@ -18,7 +18,7 @@ func main() {
 	}
 	defer file.Close()
 
-	for j := 0; j < ny; j++ {
+	for j := 1; j <= ny; j++ {
 		for i := 0; i < nx; i++ {
 			r := float64(i) / float64(nx)
 			g := float64(j) / float64(ny)
